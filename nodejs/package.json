@@ -1,0 +1,10 @@
+{
+"name": "rasi",
+"version": "1.0",
+"main": "public/index.html",
+"node-main":"server.js",
+"window": {
+    "toolbar": false,
+	"fullscreen":false
+  }
+}

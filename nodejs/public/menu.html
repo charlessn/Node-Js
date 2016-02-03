@@ -1,0 +1,152 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/common.css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<title>Menu</title>
+</head>
+<body class="bg">
+	<div align="center">
+		<div class="panel_bg">
+        	<ul class="nav nav-tabs" id="tab" style="padding-left:25px;">
+                <li  class="active"><a href="#accounts">Accounts</a></li>
+                <li><a href="#accounts_detail">Accounts Detail</a></li>
+                <li><a href="#add_customer">Add Customer</a></li>
+                <li><a href="#customer_detail">Customer Detail</a></li>
+  			</ul>
+            
+            <div class="tab-content">
+            	<div id="accounts" class="tab-pane fade in active">
+                <div style="margin:40px 20px;">
+                	<div class="entryDiv">
+                        <div class="left">Name</div>
+                		<div class="middle">:</div>
+                        <div class="right">
+                            <input type="text" id="name" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="entryDiv">
+                        <div class="left">Address</div>
+                		<div class="middle">:</div>
+                        <div class="right">
+                            <input type="text" id="name" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="entryDiv">
+                        <div class="left">Fees</div>
+                		<div class="middle">:</div>
+                        <div class="right">
+                            <input type="text" id="name" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="entryDiv">
+                        <div class="left">Balance</div>
+                		<div class="middle">:</div>
+                        <div class="right">
+                            <input type="text" id="name" class="form-control"/>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                <div id="accounts_detail" class="tab-pane fade in active">
+                	<div style="margin:40px 20px;">
+                    	Accounts Detail
+					</div>
+                </div>
+            	<div id="add_customer" class="tab-pane fade">
+            			<div style="margin:40px 20px;">
+            				<div class="panelDiv">
+                                <div class="left">
+                					<div class="entryDiv">
+                                        <div class="left">Name</div>
+                						<div class="middle">:</div>
+                                        <div class="right">
+                                            <input type="text" id="name" class="form-control"/>
+                                        </div>
+                                    </div>
+                        			<div class="entryDiv">
+            							<div class="left">S/O, D/O, W/O</div>
+                						<div class="middle">:</div>
+                                        <div class="right">
+											<input type="text" id="so_do" class="form-control"/>
+                                        </div>
+        							</div>
+                        			<div class="entryDiv">
+            							<div class="left">Address</div>
+                						<div class="middle">:</div>
+                                        <div class="right">
+											<textarea id="name" class="form-control"></textarea>
+                                        </div>
+        							</div>
+                        			<div class="entryDiv">
+                                        <div class="left">Date of Birth</div>
+                                        <div class="middle">:</div>
+                						<div class="right">
+                                            <input type="text" id="date" class="form-control"/>
+                                        </div>
+        							</div>
+                       				 <div class="entryDiv">
+            							<div class="left">Purpose</div>
+                						<div class="middle">:</div>
+                						<div class="right">
+                                            <input type="text" id="purpose" class="form-control"/>
+                						</div>
+                                    </div>
+                				</div>
+                			<div class="right">
+                                <div style="margin-left:20px;">
+                                    <div class="entryDiv">
+                                        <div class="left">Dealer</div>
+                                        <div class="middle">:</div>
+                                		<div class="right">
+                                            <select style="width:200px">
+                                                <option> -Select -</option>
+                                                <option>Rasi Driving School</option>
+                                                <option>Joy Driving School</option>
+                                                <option>Vijay Driving School</option>
+                                            </select>
+                                		</div>
+                                    </div>
+                                    <div class="entryDiv">
+                                        <div class="left">Total</div>
+                                        <div class="middle">:</div>
+                                        <div class="right">
+                                            <input type="text" id="total" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="entryDiv">
+                                        <div class="left">Advanced</div>
+                                        <div class="middle">:</div>
+                                        <div class="right">
+                                            <input type="text" id="advanced" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="entryDiv">
+                                        <div class="left">Balance</div>
+                                        <div class="middle">:</div>
+                                        <div class="right">
+                                            <input type="text" id="balance" class="form-control"/>
+                                        </div>
+                                    </div>
+                        		</div>
+                            </div>
+            			</div>
+                        <div style="margin-top:20px;">
+                			<div class="btn-success btn" onClick="navigateToPage('menu')">Save</div>
+                    		<div class="btn-success btn">Cancel</div>
+                    		<div class="btn-success btn">Print</div>
+                		</div>
+         			</div>
+                </div>
+            	<div id="customer_detail" class="tab-pane fade">
+                		Customer Detail
+                </div>
+            </div>
+      </div>
+  </div>
+</body>
+</html>
